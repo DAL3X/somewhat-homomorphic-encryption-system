@@ -1,5 +1,5 @@
 The Repository consists of multiple smaller projects, that each have their own way of running and installation requirements.
-Reffer to the README.md files in the project folders for further instructions.
+Refer to the README.md files in the project folders for further instructions.
 
 The available projects are:
 - SHE_Server: The modified hardware implementation from Roy et al. that runs on the FPGA board and prints timings when recieving ciphertexts and relin keys.

@@ -3,6 +3,9 @@ Once the FPGA is programmed, navigate into firmware/project_sw of the project an
 Copy all files from this repository's project_sw folder in there and start the Xilinx SDK as usual.
 After starting the programm, the FPGA should output some connection information that can be used for debugging.
 
+If any problems with bsp files arise, try just copying the _design folders and keep the original bsp folders.
+To activate lwIP in this case, follow the last two steps of the following bugfix.
+
 If the SDK is complaining about parts of lwIP missing (it seems to appear randomely), go into the bsp setting of the network core and disable lwIP in the mss settings.
 After this, build the project. This step will fail but is required.
 Next re-enable lwIP and build the project. This will reload all the lwIP files.
