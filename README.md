@@ -5,7 +5,7 @@ The Repository consists of multiple smaller projects, that each have their own w
 Refer to the README.md files in the project folders for further instructions.
 
 The available projects are:
-- SHE_Server: A modified implementation from Roy et al. (https://github.com/KULeuven-COSIC/HEAT/tree/master/ZCU102) that runs on the ZCU102 FPGA board and prints timings when recieving ciphertexts and relin keys. All rights for the pre-existing code lay by the original publishers.
+- SHE_Server: A modified implementation of Roy et al. (https://github.com/KULeuven-COSIC/HEAT/tree/master/ZCU102) that runs on the ZCU102 FPGA board and prints timings when recieving ciphertexts and relin keys. All rights for the pre-existing code lay by the original publishers.
 - SHE_Client: The client used for transmission timings. If you want to take measurements on the server, do it with this client implementation.
 - SHE_SEAL: A SEAL (https://github.com/microsoft/SEAL) demo used to take timings in order to compare them with the FPGA.
 - SHE_OpenFHE: An OpenFHE (https://github.com/openfheorg/openfhe-development) demo used to take timings in order to compare them with the FPGA.
