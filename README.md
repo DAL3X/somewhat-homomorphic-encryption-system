@@ -1,5 +1,5 @@
 Implementation of a somewhat homomorphic encryption system using an FPGA hardware accelerator.
-This project was part of my bachelor's degree at KIT and developed in four months.
+This project was part of my bachelor's thesis at KIT and developed in four months.
 
 The Repository consists of multiple smaller projects, that each have their own way of running and installation requirements.
 Refer to the README.md files in the project folders for further instructions.
